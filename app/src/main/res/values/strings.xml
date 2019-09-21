@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">FingerPrintAuthentication</string>
     <string name="instructions">Place your fingertip on the sensor to verify your identity</string>
+    <string name="not_supported">Your device doesn\'t support fingerprint authentication</string>
+    <string name="enable_permission">Please enable the fingerprint permission</string>
+    <string name="register_fingerprint">No fingerprint configured. Please register at least one fingerprint in your
+        device\'s Settings
+    </string>
+    <string name="enable_lockscreen">Please enable lockscreen security in your device\'s Settings</string>
 </resources>
