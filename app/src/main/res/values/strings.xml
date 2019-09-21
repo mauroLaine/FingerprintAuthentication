@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">FingerPrintAuthentication</string>
+    <string name="instructions">Place your fingertip on the sensor to verify your identity</string>
 </resources>
