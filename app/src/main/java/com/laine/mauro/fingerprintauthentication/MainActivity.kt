@@ -62,7 +62,7 @@ class MainActivity : AppCompatActivity() {
 
             if (initCypher()) {
                 cryptoObject = FingerprintManager.CryptoObject(cipher)
-                val helper: FingerprintHandler = FingerprintHandler()
+                val helper: FingerprintHandler = FingerprintHandler(this)
                 helper.startAuth(fingerprintManager, cryptoObject)
             }
         }
